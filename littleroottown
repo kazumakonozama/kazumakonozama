@@ -1,0 +1,84 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 3*60 + 12 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[
+w t y
+[1u] [50] [8w] [5y] [1u] [5y] [8u] [5i]
+3 [7o] 0 [7p] [%u] [0y] [Wu] [0O]
+[6tp] 0 [eya] 0 [%tp] 0 [Wu] [0y]
+[5t] [qr] [wt] [0u] [$Iyp]| e r
+[4t] [80] q [8e] [4o] [8i] [3i] [8u]
+[2t] [60] [9q] [6e] [2p] [6i] [9u] [6y]
+[5t] 9 w 9 r [9t] [we] [9t]
+[5r] 9 4 [9t] [5y] 5 o i
+[1u] [50] [8w] [5y] [1u] [5y] [8u] [5i]
+[3w] [7o] 0 [7p] [%u] [0y] [Wu] [0O]
+[6tp] 0 [eya] 0 [%us] 0 [Wu] [0y]
+[5t] [0r] [wt] [0u] [$Iyp]| e r
+[4t] [80] q [8e] [4o] [8i] [3i] [8u]
+[2t] [60] [9q] [6e] [2p] [6i] [9u] [6y]
+[5t] 9 w 9 r [9t] [we] [9t]
+[5r] [9r] 4 [9t] [5y] 5 u i
+[3o] [7w] [0r] [7o] [%O] [0i] [Wu] [0y]
+[6t] [0t] 5 [0r] [$e] 9 [Qt] [9u]
+[4y] 9 q 9 $ [9t] [Qe] [9t]
+[5r] [9r] w [9t] [5y] 5 u i
+[3o] [7w] [0r] [7o] [%O] [0u] [WO] [0a]
+[6d] [0s] [5a] [0s] [$p] 9 [Qs] [9f]
+[4d] 9 q 9 $ [9s] [Qp] [9s]
+[5a] [2a] 5 [7s] [9d] w h g
+[8f] [wo] t [wd] [tf] [wd] [tf] [wg]
+0 [rh] u [rj] [Wf] [ud] [Of] [uH]
+[es]fju [pk] u [Ws]fju [Of] [ud]
+[ws] [ua] [os] [uf] [Qs]Gjy [Ip] a
+[qs] [tu] i [tp] [qh] [tg] [0g] [tf]gf
+[9s] [eu] [yi] [ep] [9j] [eg] [yf] [ed]
+[ws] y o y a [ys] [op] [ys]
+[wa] y q [ys] [wd] 5 h g
+[8f] [wu] [to] [wd] [8f] [wd] [tf] [wg]
+[0o] [rh] u [rj] [Wf] [ud] [Of] [uH]
+[es]fju [pk] u [Wf]jlu [Of] [ud]
+[ws] [ua] [os] [uf] [Qs]Gjy [Ip] a
+[qs] [tu] i [tp] [eh] [tg] [0g] [tf]gf
+[9s] [eu] [yi] [ep] [9j] [eg] [yf] [ed]
+[ws] y o y a [ys] [op] [ys]
+[wa] y q [ys] [wd] 5 f g
+[0h] [ro] [ua] [rh] [WH] [ug] [Of] [ud]
+[es] [us] w [ua] [Qp] y [Is] [yf]
+[qd] y i y Q [ys] [Ip] [ys]
+[wa] [ya] o [ys] [wd] 5 f g
+[0h] [ro] [ua] [rh] [WH] [uf] [OH] [uk]
+[ez] [ul] [wk] [yl] [Qj] y [Il] [yx]
+[qz] y i y Q [yl] [Ij] [yl]
+[wk] [yk] o [yl] [5z] 5 o i
+[1u] [50] [8w] [5y] [1u] [5y] [8u] [5i]
+[3w] [7o] 0 [7p] [%u] [0y] [Wu] [0O]
+[6t]up0 [ea] 0 [%tup] 0 [Wu] [0y]
+[5t] [0r] [wt] [0u] [$Itp]| e r
+[4t] [80] q [8e] [4o] [8i] [3i] [8u]iu
+[2t] [60] [9q] [6e] [2p] [6i] [9u] [6y]
+[5t] 9 w 9 r [9t] [we] [9t]
+[5r] [9r] 4 [9t] [5y] 5 o i
+[1u] [50] [8w] [5y] [1u] [5y] [8u] [5i]
+[3w] [7o] 0 [7p] [%u] [0y] [Wu] [0O]
+[6tp] 0 [eya] 0 [%us] 0 [Wu] [0y]
+[5t] [0r] [wt] [0u] [$Iyp]| e r
+[4t] [80] q [8e] [4o] [8i] [3i] [8u]iu
+[2t] [60] [9q] [6e] [2p] [6i] [9u] [6y]
+[5t] 9 w 9 r [9t] [we] [9t]
+[5r] [9r] 4 [9t] [5y] 5 u i
+[3o] [7w] [0r] [7o] [%O] [0i] [Wu] [0y]
+[6t] [0t] 5 [0r] [$e] 9 [Qt] [9u]
+[4y] 9 q 9 $ [9t] [Qe] [9t]
+[5r] [9r] w [9t] [5y] 5 u i
+[3o] [7w] [0r] [7o] [%O] [0u] [WO] [0a]
+[6d] [0s] [5a] [0s] [$Ip] 9 [QIs] [I9f]
+[4id] 9 q 9 $ [9s] [Qp] [9s]
+[5a]2579wsd| |
+[8uos]wt
+]]
